@@ -1,15 +1,17 @@
 <template>
     <header class="menu-superior">
         <div class="container">
-            <h1>Logo</h1>
+            <div class="title-menu">
+                <h1>AR SHAKIR</h1>
+            </div>
 
             <nav class="menu-options">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Preços</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Template</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Start Free</a></li>
                 </ul>
             </nav>
 
@@ -46,18 +48,18 @@ export default {
 
 .menu-superior{
     width: 100%;
-    background-color:  #022730;
+    background-color: #020963;
 
     .container{
         width: calc(100% - 40px);
         max-width: 1240px;
         margin: 0 auto;
-        padding: 20px 0;
+        padding: 40px 0;
 
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 10px;
+        gap: 20px;
 
         @media(max-width: 992px){
             flex-direction: column;
@@ -69,33 +71,55 @@ export default {
         }
     }
 
-    h1{
-        color: #fff;
-        font-size: 2rem;
+    .title-menu{
+        h1{
+            color: #fff;
+            font-size: 1.25rem;
+    
+            position: relative;
+            z-index: 2;
 
-        position: relative;
-        z-index: 2;
+            @media(max-width: 1024px){
+                font-size: 1.125rem;
+            }
+        }
+
     }
+
 
     .menu-options{
         width: 100%;
-        max-width: 844px;
+        max-width: 820px;
 
         ul{
             list-style-type: none;
 
             display: flex;
             justify-content: space-between;
+            align-items: center;
             gap: 10px;
 
             li{
                 a{
                     color: white;
-                    font-size: 1.125rem;
+                    font-size: 0.875rem;
                     text-decoration: none;
 
                     &:hover{
-                        color: #FA8F02;
+                        color: #FF7F5C;
+                    }
+                }
+
+                &:last-of-type{
+                    a{
+                        background-color: #FF7F5C;
+                        padding: 16px 36px;
+                        border-radius: 10px;
+
+                        &:hover{
+                            background-color: #dd532d;
+                            color: #fff;
+                        }
                     }
                 }
             }

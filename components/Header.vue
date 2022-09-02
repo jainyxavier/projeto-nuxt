@@ -2,7 +2,7 @@
     <header class="menu-superior">
         <div class="container">
             <div class="title-menu">
-                <h1>AR SHAKIR</h1>
+                <nuxt-link to="/">AR SHAKIR</nuxt-link>
             </div>
 
             <nav class="menu-options">
@@ -72,9 +72,11 @@ export default {
     }
 
     .title-menu{
-        h1{
+        a{
             color: #fff;
             font-size: 1.25rem;
+
+            text-decoration: none;
     
             position: relative;
             z-index: 2;

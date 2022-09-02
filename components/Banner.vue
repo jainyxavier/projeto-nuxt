@@ -2,7 +2,7 @@
     <section class="section-banner">
         <div class="container">
             <div class="title-section">
-                <h2>Managing your crypto portfolio has never been easier</h2>
+                <h1>Managing your crypto portfolio has never been easier</h1>
 
                 <p>End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
             </div>
@@ -63,7 +63,7 @@
             padding-bottom: 56px;
             text-align: center;
 
-            h2{
+            h1{
                 font-size: 3.75rem;
                 font-weight: 700;
                 color: #fff;

@@ -23,21 +23,40 @@
             </div>
         </section>
 
-        <section class="box-patrocinio">
+        <section class="section-sponsorship">
             <div class="container">
-                <!-- <div class="sobre-patrocinio">
+                <div class="title-sponsorship">
                     <h2>Over 32k+ software  businesses growing with AR Shakir.</h2>
-                </div> -->
+                </div>
 
-                
+                <div class="content-brands">
+                    <BrandsImage url="img/brands/open.svg" />
+                    <BrandsImage url="img/brands/oracle.svg" />
+                    <BrandsImage url="img/brands/morpheus.svg" />
+                    <BrandsImage url="img/brands/samsung.svg" />
+                    <BrandsImage url="img/brands/monday.svg" />
+                    <BrandsImage url="img/brands/segment.svg" />
+                    <BrandsImage url="img/brands/protonet.svg" />
+                </div>
             </div>
         </section>
     </div>
 </template>
 
 <script>
-export default {
-    name: 'IndexPage'
+    import BrandsImage from "~/components/BrandsImage"
+
+    export default {
+        name: 'IndexPage',
+        data(){
+            return{
+                url: ''
+            }
+        },
+
+        components: {
+            childComponent: BrandsImage
+        }
 }
 </script>
 

@@ -6,3 +6,9 @@
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
 }
+
+.container{
+    width: calc(100% - 40px);
+    max-width: 920px;
+    margin: 0 auto;
+}

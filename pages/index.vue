@@ -57,6 +57,22 @@
 
             </div>
         </section>
+
+        <section class="section-payment">
+            <div class="container">
+                <div class="payment-info">
+                    <span>Our feature</span>
+                    <h2>All payments can be managed from one account</h2>
+                    <p>Why kept very ever home mrs. Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.</p>
+
+                    <TheBtn textBtn="Get Started" colorBtn="#3734A9" linkBtn="#" />
+                </div>
+
+                <div class="payment-img">
+                    <nuxt-img src="img/payment.png"/>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 

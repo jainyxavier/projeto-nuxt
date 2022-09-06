@@ -40,26 +40,43 @@
                 </div>
             </div>
         </section>
+
+        <section class="section-resource">
+            <div class="container">
+                <div class="resource-img">
+                    <nuxt-img src="img/img-mulher.png"/>
+                </div>
+
+                <div class="resource-info">
+                    <span>Our feature</span>
+                    <h2>All of your portfolios are linked to your AR Shakir account</h2>
+                    <p>Why kept very ever home mrs. Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.</p>
+
+                    <TheBtn textBtn="Get Started" colorBtn="#3734A9" linkBtn="#" />
+                </div>
+
+            </div>
+        </section>
     </div>
 </template>
 
 <script>
     import BrandsImage from "~/components/BrandsImage"
+    import TheBtn from "~/components/TheBtn"
 
     export default {
         name: 'IndexPage',
         data(){
             return{
-                url: ''
+                url: '',
+                textBtn: '',
+                colorBtn: '',
+                linkBtn: '',
             }
         },
 
         components: {
-            childComponent: BrandsImage
+            childComponent: BrandsImage, TheBtn
         }
 }
 </script>
-
-<style lang="scss">
-
-</style>

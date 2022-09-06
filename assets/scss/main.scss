@@ -159,3 +159,47 @@
         }
     }
 }
+
+.section-payment{
+    width: 100%;
+    padding: 76px 0 108px;
+
+    .container{
+        max-width: 1193px;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .payment-info{
+        width: 100%;
+        max-width: 579px;
+
+        span{
+            font-size: 1.125rem;
+            font-weight: 800;
+            color: #3734A9;
+            text-transform: uppercase;
+        }
+
+        h2{
+            font-size: 3.125rem;
+            font-weight: 700;
+            color: #000;
+            margin: 25px 0;
+        }
+
+        p{
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: #757095;
+        }
+    }
+
+    .payment-img{
+        width: 100%;
+        max-width: 580px;
+    }
+}

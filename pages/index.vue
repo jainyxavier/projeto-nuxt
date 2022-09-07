@@ -144,6 +144,23 @@
                         <p>Most renowed<br> data centers</p>
                     </div>
                 </div>
+
+                <div class="box-cards">
+                    <div class="card">
+                        <h2>Outward clothes promise at gravity.</h2>
+                        
+                        <p>End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+
+                        <TheBtn textBtn="Read More" colorBtn="#4F46BA" linkBtn="#" />
+                    </div>
+                    <div class="card">
+                        <h2>Sufficient particular impossible.</h2>
+                        
+                        <p>End-to-end payments and financial management in a single solution. Meet the right platform to help realize.</p>
+
+                        <TheBtn textBtn="Read More" colorBtn="#4F46BA" linkBtn="#" />
+                    </div>
+                </div>
             </div>
         </section>
     </div>

@@ -298,16 +298,17 @@
 
     .container{
         max-width: 1200px;
-        background-color: #fff;
-        border: 1px solid #DEE1E6;
-        border-radius: 20px;
     }
-
+    
     .information{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
+        background-color: #fff;
         padding: 41px 50px 37px 44px;
+        border: 1px solid #DEE1E6;
+        border-radius: 20px;
 
         .title-information{
             width: 100%;
@@ -347,6 +348,48 @@
                 font-size: 1.25rem;
                 font-family: 'Gilroy', sans-serif;
                 color: #64607D;
+            }
+        }
+    }
+
+    .box-cards{
+        width: 100%;
+        padding: 72px 0 102px;
+
+        display: flex;
+        justify-content: space-between;
+        
+        .card{
+            width: 100%;
+            max-width: 580px;
+            padding: 48px 56px 48px;
+
+            background-color: #fff;
+            box-shadow: 0px 141.825px 113.46px rgba(0, 0, 0, 0.03), 0px 91.9235px 66.4476px rgba(0, 0, 0, 0.0227778), 0px 54.6288px 36.1391px rgba(0, 0, 0, 0.0182222), 0px 28.365px 18.4372px rgba(0, 0, 0, 0.015), 0px 11.5561px 9.24488px rgba(0, 0, 0, 0.0117778), 0px 2.62639px 4.46486px rgba(0, 0, 0, 0.00722222);
+
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            border-radius: 20px;
+            text-align: center;
+
+            h2{
+                font-size: 2.625rem;
+                font-weight: 800;
+                color: #000;
+            }
+
+            p{
+                font-size: 1rem;
+                font-weight: 500;
+                color: #64607D;
+                margin-top: 30px;
+            }
+
+            a{
+                padding: 19px 53px;
             }
         }
     }

@@ -118,6 +118,34 @@
                 </div>
             </div>
         </section>
+
+        <section class="section-information">
+            <div class="container">
+                <div class="information">
+                    <div class="title-information">
+                        <h2>Germany-based & GDPR Compliant</h2>
+                    </div>
+                    <div class="box-information">
+                        <div class="img-information">
+                            <nuxt-img src="img/data.svg"/>
+                        </div>
+                        <p>Data does not<br> leave our servers</p>
+                    </div>
+                    <div class="box-information">
+                        <div class="img-information">
+                            <nuxt-img src="img/infrastructure.svg"/>
+                        </div>
+                        <p>Own<br> infrastructure</p>
+                    </div>
+                    <div class="box-information">
+                        <div class="img-information">
+                            <nuxt-img src="img/most.svg"/>
+                        </div>
+                        <p>Most renowed<br> data centers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 

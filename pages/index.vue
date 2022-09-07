@@ -73,6 +73,51 @@
                 </div>
             </div>
         </section>
+
+        <section class="section-video">
+            <div class="container">
+                <div class="title-info">
+                    <h2>Yet preference connection unpleasant yet melancholy but end appearance</h2>
+
+                    <TheBtn textBtn="Get Started Now" colorBtn="#FF7F5C" linkBtn="#" />
+                </div>
+
+                <div class="content-items">
+                    <div class="box-items">
+                        <div class="items">
+                            <div class="number">1</div>
+
+                            <div class="info-items">
+                                <h3>First Working Process</h3>
+                                <p>Blessing it ladyship on sensible judgment settling outweigh.</p>
+                            </div>
+                        </div>
+
+                        <div class="items">
+                            <div class="number">2</div>
+
+                            <div class="info-items">
+                                <h3>Dedicated Team</h3>
+                                <p>Warmly little before cousin sussex entire men set.</p>
+                            </div>
+                        </div>
+
+                        <div class="items">
+                            <div class="number">3</div>
+
+                            <div class="info-items">
+                                <h3>24/7 Hours Support</h3>
+                                <p>And excellence partiality estimating terminated day everything.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="img-video">
+                        <nuxt-img src="img/section-video.png"/>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 

@@ -163,6 +163,25 @@
                 </div>
             </div>
         </section>
+
+        <section class="section-blog">
+            <div class="container">
+                <div class="title-blog">
+                    <h2>Recent Blogs</h2>
+                </div>
+
+                <div class="card-destaque">
+                    <div class="card-content">
+                        <span>Best Practices</span>
+                        <h3>In design active temper be uneasy. Thirty for remove plenty regard.</h3>
+                        <a href="#">Read More <div></div></a>
+                    </div>
+                    <div class="card-img">
+                        <nuxt-img src="img/blog/card-destaque.png"/>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 

@@ -394,3 +394,64 @@
         }
     }
 }
+
+.section-blog{
+    width: 100%;
+    background-color: #FAFBFF;
+
+    .container{
+        max-width: 1167px;
+    }
+
+    .title-blog{
+        h2{
+            font-size: 3.125rem;
+            font-weight: 800;
+            color: #000;
+        }
+    }
+
+    .card-destaque{
+        background-color: #fff;
+        margin: 72px 0 29px;
+
+        display: flex;
+        justify-content: center;
+
+        .card-content{
+            padding: 34px 148px 68px 28px;
+
+            span{
+                font-size: 1rem;
+                font-weight: 700;
+                color: #000;
+                text-transform: uppercase;
+            }
+
+            h3{
+                font-size: 1.813rem;
+                font-weight: 700;
+                color: #000;
+                margin: 10px 0 68px;
+            }
+
+            a{
+                font-size: 1rem;
+                font-weight: 600;
+                color: #000;
+                text-decoration: none;
+
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                div{
+                    width: 12px;
+                    height: 2px;
+                    background-color: #000;
+                    
+                }
+            }
+        }
+    }
+}

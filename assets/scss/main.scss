@@ -437,7 +437,7 @@
 
             a{
                 font-size: 1rem;
-                font-weight: 600;
+                font-weight: 700;
                 color: #000;
                 text-decoration: none;
 
@@ -446,10 +446,26 @@
                 gap: 10px;
 
                 div{
-                    width: 12px;
-                    height: 2px;
-                    background-color: #000;
-                    
+                    width: 8px;
+                    height: 8px;
+                    border: 2px solid black;
+
+                    transform: rotate(135deg);
+                    border-right: 0;
+                    border-bottom: 0;
+
+                    position: relative;
+
+                    &::before{
+                        content: '';
+                        width: 10px;
+                        height: 2px;
+                        position: absolute;
+                        background-color: #000;
+                        bottom: 2px;
+                        left: -2px;
+                        transform: rotate(45deg);
+                    }
                 }
             }
         }

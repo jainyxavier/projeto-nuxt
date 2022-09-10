@@ -113,6 +113,7 @@
     .content-brands{
         width: 100%;
         display: flex;
+        align-items: center;
         justify-content: space-between;
     }
 }
@@ -352,7 +353,7 @@
         }
     }
 
-    .box-cards{
+    .box-cards-information{
         width: 100%;
         padding: 72px 0 102px;
 
@@ -398,9 +399,10 @@
 .section-blog{
     width: 100%;
     background-color: #FAFBFF;
+    padding-bottom: 156px;
 
     .container{
-        max-width: 1167px;
+        max-width: 1203px;
     }
 
     .title-blog{
@@ -416,10 +418,13 @@
         margin: 72px 0 29px;
 
         display: flex;
-        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
 
         .card-content{
-            padding: 34px 148px 68px 28px;
+            width: 100%;
+            max-width: 584px;
+            padding-left: 28px;
 
             span{
                 font-size: 1rem;
@@ -467,6 +472,52 @@
                         transform: rotate(45deg);
                     }
                 }
+            }
+        }
+
+        .card-img{
+            display: flex;
+        }
+    }
+
+    .box-cards-blog{
+        width: 100%;
+
+        display: flex;
+        justify-content: space-between;
+
+        .card{
+            width: 100%;
+            max-width: 382px;
+            background-color: #fff;
+            padding-top: 25px;
+
+            display: flex;
+            flex-direction: column;
+
+            .card-info{
+                width: 100%;
+                max-width: 330px;
+                padding-left: 32px;
+                margin-bottom: 58px;
+
+                span{
+                    font-size: 1rem;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    color: #000;
+                }
+    
+                h3{
+                    font-size: 1.813rem;
+                    font-weight: 700;
+                    color: #000;
+                    margin-top: 10px;
+                }
+            }
+
+            .img-card{
+                margin-top: auto;
             }
         }
     }

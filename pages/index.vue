@@ -1,6 +1,7 @@
 <template>
     <div>
         <TheHeader/>
+
         <section class="section-banner">
             <div class="container">
                 <div class="title-section">
@@ -217,6 +218,8 @@
                 </div>
             </div>
         </section>
+
+        <TheFooter/>
     </div>
 </template>
 
@@ -248,5 +251,5 @@
         components: {
             childComponent: BrandsImage, TheBtn, BoxCards
         }
-}
+    }
 </script>

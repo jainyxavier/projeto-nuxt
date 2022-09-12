@@ -137,6 +137,11 @@
         justify-content: space-between;
         align-items: center;
         gap: 15px;
+
+        @media(max-width: 1080px){
+            flex-direction: column;
+            text-align: center;
+        }
     }
 
     .resource-img{
@@ -166,16 +171,6 @@
             font-size: 1.125rem;
             font-weight: 500;
             color: #757095;
-        }
-
-        @media(max-width: 1124px){
-            span, p{
-                font-size: 1rem;
-            }
-
-            h2{
-                font-size: 2.5rem;
-            }
         }
     }
 }

@@ -81,13 +81,15 @@ export default {
             position: relative;
             z-index: 2;
 
+            &:hover{
+                color: #dd532d;
+            }
+
             @media(max-width: 1024px){
                 font-size: 1.125rem;
             }
         }
-
     }
-
 
     .menu-options{
         width: 100%;

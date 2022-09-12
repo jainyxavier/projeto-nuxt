@@ -129,6 +129,12 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 15px;
+
+        @media(max-width: 1080px){
+            flex-direction: column;
+            text-align: center;
+        }
     }
 
     .resource-img{
@@ -146,14 +152,14 @@
             color: #3734A9;
             text-transform: uppercase;
         }
-
+        
         h2{
             font-size: 3.125rem;
             font-weight: 700;
             color: #000;
             margin: 25px 0;
         }
-
+        
         p{
             font-size: 1.125rem;
             font-weight: 500;

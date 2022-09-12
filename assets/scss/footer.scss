@@ -1,0 +1,101 @@
+footer{
+    width: 100%;
+    background-color: #1B1C31;
+
+    .container{
+        max-width: 1198px;
+    }
+
+    .title-footer{
+        width: 100%;
+        max-width: 817px;
+        margin: 0 auto;
+        padding: 72px 0 90px;
+
+        h2{
+            font-size: 3.313rem;
+            font-weight: 500;
+            color: #fff;
+            text-align: center;
+        }
+
+        div{
+            display: flex;
+            justify-content: center;
+            margin-top: 25px;
+
+            a{
+                padding: 13px 31px;
+            }
+        }
+    }
+
+    .line{
+        width: 100%;
+        border: 1px solid #404444;
+    }
+
+    .info-footer{
+        padding: 41px 0 106px;
+
+        display: flex;
+        justify-content: space-between;
+
+        .about-us{
+            width: 100%;
+            max-width: 522px;
+
+            h4{
+                font-size: 1.25rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                color: #fff;
+            }
+
+            p{
+                font-size: 1rem;
+                font-weight: 500;
+                color: #545564;
+                margin-top: 16px;
+            }
+        }
+
+        .box-services{
+            .service{
+                h4{
+                    font-size: 1.313rem;
+                    font-weight: 700;
+                    color: #fff;
+                    margin-bottom: 35px;
+                }
+
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 18px;
+                    li{
+                        list-style-type: none;
+                        font-size: 1rem;
+                        font-weight: 500;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .credits{
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+
+        padding: 40px 0;
+
+        p, span{
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: #fff;
+        }
+    }
+}

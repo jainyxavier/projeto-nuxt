@@ -1,5 +1,5 @@
 <template>
-    <header class="menu-superior">
+    <header :class="{active: openMenu}" class="menu-superior">
         <div class="container">
             <div class="title-menu">
                 <nuxt-link to="/">AR SHAKIR</nuxt-link>
@@ -15,7 +15,7 @@
                 </ul>
             </nav>
 
-            <div class="menu-hamburguer" v-on:click="clickHamburguer">
+            <div class="menu-hamburguer" v-on:click="openHamburguer">
                 <div></div>
                 <div></div>
                 <div></div>
@@ -29,16 +29,19 @@
 <script>
 export default {
     name: "Header", 
+    data(){
+        return{
+            openMenu: false
+        }
+    },
 
     methods: {
-        clickHamburguer(){
-            console.log('teste')
-            var menuSuperior = document.querySelector('.menu-superior')
-            var menu = document.querySelector('.menu-hamburguer')
-
-            menu.addEventListener('click', function(){
-                menuSuperior.classList.toggle('active')
-            })
+        openHamburguer(){            
+            if(this.openMenu == false){
+                this.openMenu = true
+            } else{
+                this.openMenu = false
+            }
         }
     }
 }

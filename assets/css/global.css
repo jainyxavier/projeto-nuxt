@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
 
+@font-face {
+    font-family: 'Gilroy';
+    src: url('~/assets/fonts/gilroy-semi-bold.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Manrope', sans-serif;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
 }
 
 .container{

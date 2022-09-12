@@ -23,7 +23,8 @@ export default {
   css: [
     '~/assets/css/global.css',
     '~/assets/scss/main.scss',
-    '~/assets/scss/footer.scss'
+    '~/assets/scss/footer.scss',
+    '~/assets/scss/header.scss',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

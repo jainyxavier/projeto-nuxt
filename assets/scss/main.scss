@@ -186,6 +186,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        @media(max-width: 1080px){
+            flex-direction: column;
+            text-align: center;
+        }
     }
 
     .payment-info{
@@ -210,6 +215,10 @@
             font-size: 1.125rem;
             font-weight: 500;
             color: #757095;
+        }
+
+        @media(max-width: 1080px){
+            margin-bottom: 55px;
         }
     }
 

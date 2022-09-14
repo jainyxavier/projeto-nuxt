@@ -543,6 +543,10 @@
     background-color: #FAFBFF;
     padding-bottom: 156px;
 
+    @media(max-width: 520px){
+        padding-bottom: 50px;
+    }
+
     .container{
         max-width: 1203px;
     }
@@ -552,6 +556,10 @@
             font-size: 3.125rem;
             font-weight: 800;
             color: #000;
+
+            @media(max-width: 520px){
+                font-size: 3rem;
+            }
         }
     }
 
@@ -562,6 +570,11 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        @media(max-width: 620px){
+            flex-direction: column;
+            gap: 45px;
+        }
 
         .card-content{
             width: 100%;

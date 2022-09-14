@@ -12,12 +12,16 @@ footer{
         max-width: 817px;
         margin: 0 auto;
         padding: 72px 0 90px;
-
+        
         h2{
             font-size: 3.313rem;
             font-weight: 500;
             color: #fff;
             text-align: center;
+
+            @media(max-width: 520px){
+                font-size: 2rem;
+            }
         }
 
         div{
@@ -42,6 +46,10 @@ footer{
         display: flex;
         justify-content: space-between;
         gap: 15px;
+
+        @media(max-width: 520px){
+            padding: 40px 0;
+        }
 
         .about-us{
             width: 100%;
@@ -90,12 +98,20 @@ footer{
                     }
                 }
             }
+
+            @media(max-width: 520px){
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+                text-align: center;
+            }
         }
 
         @media(max-width: 1080px){
             flex-direction: column;
             gap: 60px;
             align-items: center;
+            text-align: center;
 
             .about-us{
                 text-align: center;
@@ -120,6 +136,11 @@ footer{
             font-size: 0.75rem;
             font-weight: 500;
             color: #fff;
+        }
+
+        @media(max-width: 640px){
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
 }

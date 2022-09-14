@@ -7,6 +7,10 @@
     background: rgb(68, 81, 196);
     background: radial-gradient(circle, rgba(68,81,196,1) 0%, rgba(68,81,196,1) 100%);
 
+    @media(max-width: 720px){
+        padding: 50px 0;
+    }
+
     .container{
         display: flex;
         flex-direction: column;
@@ -28,6 +32,12 @@
             font-size: 1.25rem;
             font-weight: 500;
             color: #fff;
+        }
+
+        @media(max-width: 520px){
+            h1{
+                font-size: 3rem;
+            }
         }
     }
 
@@ -93,11 +103,20 @@
         max-width: 804px;
         position: absolute;
         bottom: -385px;
+
+        @media(max-width: 720px){
+            display: none;
+        }
     }
 }
 
 .section-sponsorship{
     padding: 450px 0 50px;
+
+    @media(max-width: 720px){
+        padding: 60px 0;
+    }
+
     .container{
         max-width: 1257px;
     }
@@ -165,6 +184,10 @@
             font-weight: 700;
             color: #000;
             margin: 25px 0;
+
+            @media(max-width: 520px){
+                font-size: 3rem;
+            }
         }
         
         p{
@@ -178,6 +201,10 @@
 .section-payment{
     width: 100%;
     padding: 76px 0 108px;
+
+    @media(max-width: 520px){
+        padding-bottom: 50px;
+    }
 
     .container{
         max-width: 1193px;
@@ -209,6 +236,10 @@
             font-weight: 700;
             color: #000;
             margin: 25px 0;
+
+            @media(max-width: 520px){
+                font-size: 3rem;
+            }
         }
 
         p{
@@ -232,6 +263,10 @@
     width: 100%;
     background-color: #3734A9;
     padding: 144px 0 138px;
+
+    @media(max-width: 520px){
+        padding: 50px 0;
+    }
 
     .container{
         width: calc(100% - 40px);
@@ -272,6 +307,12 @@
                 font-size: 2.5rem;
             }
         }
+
+        @media(max-width: 520px){
+            h2{
+                font-size: 1.75rem;
+            }
+        }
     }
 
     .content-items{
@@ -290,6 +331,7 @@
             .items{
                 display: flex;
                 justify-content: space-between;
+                gap: 15px;
 
                 .number{
                     width: 95px;
@@ -305,6 +347,13 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+
+                    @media(max-width: 520px){
+                        width: 75px;
+                        height: 75px;
+
+                        font-size: 2.75rem;
+                    }
                 }
 
                 .info-items{
@@ -321,6 +370,16 @@
                         font-size: 1.125rem;
                         font-weight: 500;
                         color: #A0B3E9;
+                    }
+
+                    @media(max-width: 520px){
+                        h3{
+                            font-size: 1.25rem;
+                        }
+
+                        p{
+                            font-size: 1rem;
+                        }
                     }
                 }
 
@@ -595,6 +654,11 @@
             .img-card{
                 margin-top: auto;
             }
+        }
+
+        @media(max-width: 768px){
+            flex-direction: column;
+            align-items: center;
         }
     }
 }

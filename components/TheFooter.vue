@@ -25,15 +25,11 @@
                         <ServicesFooter
                         :title="servicesFooter.title='Company'"
                         :items="[servicesFooter.items[0]='About Us', servicesFooter.items[1]='Careers', servicesFooter.items[2]='Blog', servicesFooter.items[3]='Pricing']" />
-                    </div>
-
-                    <div class="box-services">
+                    
                         <ServicesFooter
                         :title="servicesFooter.title='Product'"
                         :items="[servicesFooter.items[0]='Invoicing Platform', servicesFooter.items[1]='Accounting Plateform', servicesFooter.items[2]='Create Proposal', servicesFooter.items[3]='Contracts']" />
-                    </div>
-
-                    <div class="box-services">
+                    
                         <ServicesFooter
                         :title="servicesFooter.title='Resources'"
                         :items="[servicesFooter.items[0]='Proposal Template', servicesFooter.items[1]='Invoice Template', servicesFooter.items[2]='Tuturoial', servicesFooter.items[3]='How to write a contract']" />

@@ -406,6 +406,10 @@
     background-color: #FAFBFF;
     padding: 93px 0 72px;
 
+    @media(max-width: 520px){
+        padding: 50px 0;
+    }
+
     .container{
         max-width: 1200px;
     }
@@ -488,6 +492,15 @@
         display: flex;
         justify-content: space-between;
         gap: 15px;
+
+        @media(max-width: 1130px){
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        @media(max-width: 520px){
+            padding: 20px 0;
+        }
         
         .card{
             width: 100%;
@@ -521,11 +534,6 @@
             a{
                 padding: 19px 53px;
             }
-        }
-        
-        @media(max-width: 1130px){
-            flex-wrap: wrap;
-            justify-content: center;
         }
     }
 }

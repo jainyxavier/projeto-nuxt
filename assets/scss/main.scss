@@ -202,6 +202,10 @@
     width: 100%;
     padding: 76px 0 108px;
 
+    @media(max-width: 520px){
+        padding-bottom: 50px;
+    }
+
     .container{
         max-width: 1193px;
         margin: 0 auto;
@@ -232,6 +236,10 @@
             font-weight: 700;
             color: #000;
             margin: 25px 0;
+
+            @media(max-width: 520px){
+                font-size: 3rem;
+            }
         }
 
         p{
